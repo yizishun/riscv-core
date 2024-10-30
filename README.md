@@ -1,31 +1,11 @@
-Chisel Project Template
+# Riscv Core(under development)
 =======================
-
-Another version of the [Chisel template](https://github.com/ucb-bar/chisel-template) supporting mill.
-mill is another Scala/Java build tool without obscure DSL like SBT. It is much faster than SBT.
-
-Contents at a glance:
-
-* `.gitignore` - helps Git ignore junk like generated files, build products, and temporary files.
-* `build.sc` - instructs mill to build the Chisel project
-* `Makefile` - rules to call mill
-* `playground/src/GCD.scala` - GCD source file
-* `playground/src/DecoupledGCD.scala` - another GCD source file
-* `playground/src/Elaborate.scala` - wrapper file to call chisel command with the GCD module
-* `playground/test/src/GCDSpec.scala` - GCD tester
-
-Feel free to rename or delete files under `playground/` or use them as a reference/template.
-
-## Getting Started
-
-First, install mill by referring to the documentation [here](https://com-lihaoyi.github.io/mill).
-
-To run all tests in this design (recommended for test-driven development):
-```bash
-make test
-```
-
+## IMPORTANT
+This repository is NOT A SELF-RUNNING repository. The right way to open it is use [ysyx-framework](git@github.com:yizishun/ysyx-framework.git)
+## Usage
 To generate Verilog:
 ```bash
 make verilog
 ```
+## TODO List
+pls see [ysyx-framework](git@github.com:yizishun/ysyx-framework.git)
